@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio_shehbaz_dange</title>
+    <title>Shehbaz Dange - Portfolio</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>shehbaz dange</h1>
+    <!-- ========== Header / Navigation ========== -->
+    <header class="hero">
+      <h1>Shehbaz Dange</h1>
+      <p>Frontend Developer | Lifelong Learner</p>
       <nav>
         <ul>
           <li><a href="#about_me">About</a></li>
@@ -20,72 +25,100 @@
     </header>
 
     <main>
-      <section id="about_me">
-        <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta
-          ducimus omnis. Dolorem corporis cumque fugiat pariatur magni, quasi
-          officiis optio animi reprehenderit, reiciendis fugit!
-        </p>
+      <!-- ========== About Section ========== -->
+      <section id="about_me" class="about">
+        <img src="img/6502244.jpg" alt="Shehbaz Dange Photo" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I am a passionate frontend developer with a strong foundation in
+            HTML, CSS, JavaScript, and React.js. I enjoy building responsive
+            websites and continuously expanding my technical skill set.
+          </p>
+        </div>
       </section>
+
+      <!-- ========== Experience Section ========== -->
       <section id="experience">
         <h2>Experience</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-          accusantium aliquam quis et earum architecto magnam, repudiandae iure
-          esse necessitatibus sit. Nam nostrum delectus autem!
+          Worked on multiple academic and freelance projects focused on frontend
+          technologies. Familiar with agile workflows, version control, and
+          UI/UX principles.
         </p>
       </section>
 
-      <section id="projects">
+      <!-- ========== Projects Section ========== -->
+      <section id="projects" class="projects">
         <h2>Projects</h2>
-        <div class="project_1">
-          <h3>Porfolio website</h3>
-          <p>Project description...</p>
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal portfolio showcasing my skills, projects, and experience.
+            Built using HTML, CSS, and hosted on Netlify.
+          </p>
         </div>
-        <div class="project_2">
-          <h3>Tribute webpage</h3>
-          <p>Project description...</p>
+
+        <div class="project-card">
+          <h3>Tribute Webpage</h3>
+          <p>
+            A clean and responsive tribute page built as a beginner-friendly
+            project. Highlights semantic HTML and CSS design skills.
+          </p>
         </div>
-        <div class="project_3">
-          <h3>weather prediction webapp</h3>
-          <p>Project description...</p>
+
+        <div class="project-card">
+          <h3>Weather Prediction WebApp</h3>
+          <p>
+            A live weather app using API integration with JavaScript and styled
+            using modern responsive CSS.
+          </p>
         </div>
-        <div class="project_4">
-          <h3>To_do_app</h3>
-          <p>Project description...</p>
+
+        <div class="project-card">
+          <h3>To-Do App</h3>
+          <p>
+            A fully functional To-Do list app with DOM manipulation,
+            localStorage, and task filtering.
+          </p>
         </div>
       </section>
 
+      <!-- ========== Skills Section ========== -->
       <section id="skills">
-        <h2>Skils</h2>
+        <h2>Skills</h2>
         <ul>
-          <li>html</li>
-          <li>css</li>
-          <li>javascript</li>
-          <li>reactjs</li>
-          <li>sql</li>
-          <li>python</li>
-          <li>networking</li>
-          <li>operating system</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Networking</li>
+          <li>Operating System</li>
         </ul>
       </section>
 
+      <!-- ========== Contact Section ========== -->
       <section id="contact">
-        <h2>contact me</h2>
-        <form action="">
-          <input type="text" name="" id="" placeholder="Your Name" required />
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
-          <textarea name="" id="" placeholder="Your Message"></textarea>
+          <textarea placeholder="Your Message" required></textarea>
+          <br />
+          <button type="submit" class="btn">Send Message</button>
         </form>
       </section>
     </main>
 
+    <!-- ========== Footer ========== -->
     <footer>
-      <p>&copy; 2025 shehbaz Dange. All rights reserved.</p>
+      <p>&copy; 2025 Shehbaz Dange. All rights reserved.</p>
       <div class="social_links">
-        <a href="#">GitHub</a>
-        <a href="#">linkedIn</a>
+        <a href="#">GitHub</a> |
+        <a href="#">LinkedIn</a>
       </div>
     </footer>
   </body>
